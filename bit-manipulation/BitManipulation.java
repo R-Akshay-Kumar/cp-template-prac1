@@ -11,4 +11,7 @@ class BitManipulation{
     public static long toggleBit(long n, int k) {
         return n ^ (1L << k);
     }
+    public static int countSetBits(long n) {
+        return Long.bitCount(n);
+    }
 }
